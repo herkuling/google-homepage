@@ -1,6 +1,8 @@
+
 body {
   font-family: arial, sans-serif;
   font-size: 14px;
+  min-width: 1200px;
 }
 footer{
     bottom: 0;
@@ -9,6 +11,7 @@ footer{
     position: fixed;
     width: 100%;
 }
+
 /*link behaviour*/
 a {
    text-decoration: none;
@@ -68,6 +71,7 @@ input[type=button]:hover{
   position: absolute;
   display: inline;
 }
+
 .floatRight{
   right:0;
   text-align: right;
@@ -110,7 +114,6 @@ input[type=button]:hover{
   outline: none;
   font: 16px arial,sans-serif;
 }
-
 .searchIcon{
   width: 17px;
   height: 17px;
@@ -121,11 +124,10 @@ input[type=button]:hover{
 .micIcon{
   width: 25px;
   height: 25px;
-  margin: 9px 15px;
+  margin: 8px 8px;
   position: fixed;
   cursor: pointer;
 }
-
 /*Footer*/
 .f_country{
     font-size: 15px;
@@ -161,4 +163,196 @@ input[type=button]:hover{
 #fsl{
   float: left;
   white-space: nowrap;
+}
+
+/*PAGE 2*/
+#search_page header{
+  top: 0;
+}
+
+#search_page h2{
+  color: #1a0dab;
+  font-size: 20px;
+  font-weight: normal;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#search_page h3{
+  color: #1d6620;
+  font-weight: 200;
+  font-size: 16px;
+  margin:0;
+  float: left;
+}
+#search_page .results_infobar img{
+  margin-left: 10px;
+  margin-left: 10px;
+}
+
+#search_page .wrapper_results p {
+  line-height: 1.6em;
+  margin-top: 2px;
+}
+#search_page .wrapper_results #translate {
+  margin: 0;
+  font-size: 16px;
+}
+#search_page .results_infobar p {
+  line-height: 1.6em;
+  margin-bottom: 0;
+}
+#search_page .results_infobar h2{
+  font-size: 28px;
+  color: black;
+}
+#search_page .results_infobar h3{
+  font-size: 14px;
+  color: #5f6368;
+}
+#search_page .result_header{
+  border-bottom: 1px solid #e4e4e4;
+}
+#search_page .header_wrap{
+  display: inline-block;
+  padding-right: 100px;
+}
+
+#search_page ul {
+  margin-left: 100px;
+  margin-bottom: 0;
+  margin-right: 0;
+}
+
+#search_page article{
+  width:650px;
+  word-wrap:break-word;
+}
+#search_page .results_infobar article{
+  width: 420px;
+  border-bottom: 1px solid #e4e4e4;
+
+}
+
+#search_page ul li {
+  display: inline-block;
+  vertical-align: top;
+  font-size: 13px;
+  margin: 0;
+  padding: 15px 22px;
+  color: #5f6368;
+  cursor: pointer;
+}
+
+#search_page li:hover{
+    border-bottom: 2px solid #1A73E8;
+    padding-bottom: 13px;
+    color:#1A73E8;
+}
+
+#search_page .profileIcon{
+  padding: 15px;
+  float: right;
+}
+#search_page .profileIcon:hover{
+  background-image: url('../images/circle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:40px 40px;
+  background-clip: border-box;
+}
+
+#search_page .gridIcon{
+  padding: 15px;
+  margin: 10px 0;
+}
+
+#search_page .gridIcon:hover {
+  background-image: url('../images/circle.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:40px 40px;
+  background-clip: border-box;
+  }
+
+#search_page .floatRight{
+  display: inline-block;
+  padding-right: 15px;
+  padding-top: 5px;
+  float: right;
+}
+#search_page .floatLeft{
+  display: inline-block;
+  position: relative;
+  float: left;
+
+}
+#search_page .googleLogo{
+  width: 92px;
+  height: 30px;
+  margin: 15px 0px;
+  float: left;
+  padding: 7px 30px 0 10px;
+  top: 4px;
+}
+
+#search_page .searchContainer{
+    height: 40px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    width: 630px;
+    margin-left: 140px;
+    margin-top: 15px;
+    text-align: left;
+}
+#search_page .searchBox{
+    width: 530px;
+    height: 40px;
+    border-style:none;
+    outline: none;
+    font: 16px arial,sans-serif;
+    margin-left: 15px;
+    overflow: hidden;
+}
+#search_page .searchIcon{
+  width: 17px;
+  height: 17px;
+  margin-right: 13px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+}
+
+#search_page .micIcon{
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+    position: fixed;
+    cursor: pointer;
+}
+
+#search_page .search_nav{
+  clear: left;
+  border-bottom: solid;
+  border-color: #e4e4e4;
+  border-width: thin;
+}
+
+#search_page .search_numbers p{
+  margin-left: 155px;
+  color: #5f6368;
+}
+
+#search_page .wrapper_results{
+  margin-left: 155px;
+  margin-top: 5px;
+  float:left;
+}
+#search_page .results_infobar{
+  display: inline-block;
+  width: 420px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #e2e2e2;
+  border-radius: 10px;
+  padding: 10px;
 }
