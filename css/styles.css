@@ -356,3 +356,7 @@ input[type=button]:hover{
   border-radius: 10px;
   padding: 10px;
 }
+
+#search_page .wrapper_results #translate{
+  color:#1a0dab;
+}
